@@ -88,3 +88,19 @@ id = true; // id can also be a boolean
 console.log("ID: ", id); // Output: true
 
 
+//void type - represents the absence of a value, typically used for functions that do not return anything
+
+function great():void
+{
+    console.log("Hello, World!");
+}
+great();
+
+function sum(a:number, b:number):number
+{
+    return a + b;
+}
+
+let results = sum(5, 10);
+
+console.log("Sum: ", results); // Output: 15
